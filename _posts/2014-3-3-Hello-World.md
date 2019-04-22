@@ -1,5 +1,5 @@
 ---
-layout: Jose Manuel Barreda Martínez
-title: You're up and running!
+layout: post
+title: Jose Manuel Barreda Martínez
 ---
 
