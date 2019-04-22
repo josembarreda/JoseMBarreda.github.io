@@ -1,5 +1,5 @@
 ---
 layout: post
-title: Jose Manuel Barreda Martínez
+title: Bienvenido a mi blog
 ---
 
