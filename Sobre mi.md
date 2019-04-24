@@ -1,3 +1,5 @@
+
+---
 ---
 layout: page
 title: Sobre mi
@@ -13,3 +15,4 @@ en el IES Polígono Sur (Sevilla)
 [josemanuelbarreda11@gmail.com](mailto:josemanuelbarreda11@gmail.com)
 
 [https://github/josembarreda.com](https://github/josembarreda.com)
+---
