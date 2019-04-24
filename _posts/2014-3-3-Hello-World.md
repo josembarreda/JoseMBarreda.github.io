@@ -73,4 +73,5 @@ public class Schumacher implements&nbsp;Piloto {
 
 Y aunque el ejemplo aquí mostrado se aplico a Java, el tema en general aplica en cualquier desarrollo de POO, y que nos dará una ventaja en cuanto a flexibilidad, mantenimiento y facilidad de testeo. Espero que esto les sea de utilidad, y si tienen alguna duda o comentario, pueden externarla en la sección de comentarios.
 
-
+http://github.com - automatic!
+[GitHub](http://github.com)
