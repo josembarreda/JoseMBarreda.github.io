@@ -33,9 +33,9 @@ A programar en diferentes lenguajes como Java, Python, etc..
 
 
 ## Inyección de dependencias.
-
->Existen dos formas genéricas, por constructor o por mutador(setter); la inyección de dependencias por constructor es cuando la creación de la instancia no depende del la clase. Y en su lugar el constructor de la clase recibe como argumento un objeto de la clase abstracta Vehículo lo que hace posible que Schumacher sea capaz de pilotar diferentes tipos de vehículos sin estar acoplado a alguno en particular.
-
+---
+Existen dos formas genéricas, por constructor o por mutador(setter); la inyección de dependencias por constructor es cuando la creación de la instancia no depende del la clase. Y en su lugar el constructor de la clase recibe como argumento un objeto de la clase abstracta Vehículo lo que hace posible que Schumacher sea capaz de pilotar diferentes tipos de vehículos sin estar acoplado a alguno en particular.
+---
 ```
 public class Schumacher implements Piloto { 
    private Vehiculo vehiculo;
