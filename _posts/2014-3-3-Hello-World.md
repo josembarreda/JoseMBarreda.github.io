@@ -34,7 +34,7 @@ A programar en diferentes lenguajes como Java, Python, etc..
 
 ## Inyección de dependencias.
 
-Existen dos formas genéricas, por constructor o por mutador(setter); la inyección de dependencias por constructor es cuando la creación de la instancia no depende del la clase. Y en su lugar el constructor de la clase recibe como argumento un objeto de la clase abstracta Vehículo lo que hace posible que Schumacher sea capaz de pilotar diferentes tipos de vehículos sin estar acoplado a alguno en particular.
+>Existen dos formas genéricas, por constructor o por mutador(setter); la inyección de dependencias por constructor es cuando la creación de la instancia no depende del la clase. Y en su lugar el constructor de la clase recibe como argumento un objeto de la clase abstracta Vehículo lo que hace posible que Schumacher sea capaz de pilotar diferentes tipos de vehículos sin estar acoplado a alguno en particular.
 
 ```
 public class Schumacher implements Piloto { 
@@ -51,7 +51,7 @@ public class Schumacher implements Piloto {
 }
 ```
 
-Otra manera de inyectar dependencias es mediante el uso de setters, lo que permite mayor flexibilidad. Ya que incluso después de que un objeto de la clase haya sido creado, se podrá asignar un vehículo diferente. Es importante remarcar que en este caso estamos trabajando con una Interfaz, y no con una clase normal, y gracias al polimorfismo el uso de una interfaz nos da la ventaja de que si a mitad de la carrera(la ejecución), decidimos que Schumacher conduzca un nuevo vehículo, entonces será posible cambiar la implementación de la dependencia utilizando un setter y de una forma muy sencilla.
+>Otra manera de inyectar dependencias es mediante el uso de setters, lo que permite mayor flexibilidad. Ya que incluso después de que un objeto de la clase haya sido creado, se podrá asignar un vehículo diferente. Es importante remarcar que en este caso estamos trabajando con una Interfaz, y no con una clase normal, y gracias al polimorfismo el uso de una interfaz nos da la ventaja de que si a mitad de la carrera(la ejecución), decidimos que Schumacher conduzca un nuevo vehículo, entonces será posible cambiar la implementación de la dependencia utilizando un setter y de una forma muy sencilla.
 
 ```
 public class Schumacher implements Piloto {
@@ -71,6 +71,6 @@ public class Schumacher implements Piloto {
 }
 ```
 
-Y aunque el ejemplo aquí mostrado se aplico a Java, el tema en general aplica en cualquier desarrollo de POO, y que nos dará una ventaja en cuanto a flexibilidad, mantenimiento y facilidad de testeo. Espero que esto les sea de utilidad, y si tienen alguna duda o comentario, pueden externarla en la sección de comentarios.
+>Y aunque el ejemplo aquí mostrado se aplico a Java, el tema en general aplica en cualquier desarrollo de POO, y que nos dará una ventaja en cuanto a flexibilidad, mantenimiento y facilidad de testeo. Espero que esto les sea de utilidad, y si tienen alguna duda o comentario, pueden externarla en la sección de comentarios.
 
 
