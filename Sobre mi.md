@@ -12,4 +12,4 @@ en el IES Polígono Sur (Sevilla)
 
 [josemanuelbarreda11@gmail.com](mailto:josemanuelbarreda11@gmail.com)
 
-[Mi pagina de Github -->](https://github/josembarreda.com)
+[https://github/josembarreda.com](https://github/josembarreda.com)
