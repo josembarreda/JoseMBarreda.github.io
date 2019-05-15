@@ -40,7 +40,7 @@ A programar en diferentes lenguajes como Java, Python, etc..
 public class Schumacher implements Piloto { 
    private Vehiculo vehiculo;
  
-   public Persona( Vehiculo v){
+   public Piloto( Vehiculo v){
       vehiculo = v;
    }
  
@@ -57,7 +57,7 @@ public class Schumacher implements Piloto {
 public class Schumacher implements Piloto {
    private Vehiculo vehiculo;
  
-   public Persona( Vehiculo v) {
+   public Piloto( Vehiculo v) {
       vehiculo = v;
    }
  
